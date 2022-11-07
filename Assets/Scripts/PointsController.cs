@@ -18,7 +18,7 @@ public class PointsController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Speed = (int)Move.Instance._rbPlayer.velocity.magnitude;
+        Speed = (int)Move.Instance.RbPlayer.velocity.magnitude;
         if (Speed >= 30 && _canItAddPoints)
         {
             StartCoroutine(AddPoints());

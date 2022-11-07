@@ -25,7 +25,7 @@ public class Rotation : MonoBehaviour, IBeginDragHandler, IDragHandler
 
     private void FixedUpdate()
     {
-        var speed = (int)Move.Instance._rbPlayer.velocity.magnitude;
+        var speed = (int)Move.Instance.RbPlayer.velocity.magnitude;
 
         /**if (Input.GetMouseButtonDown(0))
         {
@@ -48,7 +48,7 @@ public class Rotation : MonoBehaviour, IBeginDragHandler, IDragHandler
         if (Input.touchCount > 0)
         {
             Move.Instance.AddForce();
-            Move.Instance._rbPlayer.drag = 1;
+            Move.Instance.RbPlayer.drag = 1;
             if (speed >= 1)
             {
                 FovConroller.Instance.AddFov();
@@ -57,7 +57,7 @@ public class Rotation : MonoBehaviour, IBeginDragHandler, IDragHandler
         else if (Input.touchCount < 1)
         {
             FovConroller.Instance.MinusFov();
-            Move.Instance._rbPlayer.drag = 2;
+            Move.Instance.RbPlayer.drag = 2;
             if (speed <= 2)
             {
                 Move.Instance.BrakeMove(speed);

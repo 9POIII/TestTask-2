@@ -19,8 +19,8 @@ public class MainMenuController : MonoBehaviour
 
     private void Start()
     {
-        Move.Instance._acceleration = 0f;
-        FovConroller.Instance._t = 0f;
+        Move.Instance.Acceleration = 0f;
+        FovConroller.Instance.T = 0f;
         Rotation.Instance.Speed = 0f;
         
         MainMenuUI.SetActive(true);
@@ -34,8 +34,8 @@ public class MainMenuController : MonoBehaviour
         MainMenuUI.SetActive(false);
         GameUI.SetActive(true);
         
-        Move.Instance._acceleration = 50f;
-        FovConroller.Instance._t = 0.01f;
+        Move.Instance.Acceleration = 50f;
+        FovConroller.Instance.T = 0.01f;
         Rotation.Instance.Speed = 7.5f;
     }
 
@@ -46,8 +46,8 @@ public class MainMenuController : MonoBehaviour
 
     public void ActivateDeathUI()
     {
-        Move.Instance._acceleration = 0f;
-        FovConroller.Instance._t = 0f;
+        Move.Instance.Acceleration = 0f;
+        FovConroller.Instance.T = 0f;
         Rotation.Instance.Speed = 0f;
         
         GameUI.SetActive(false);

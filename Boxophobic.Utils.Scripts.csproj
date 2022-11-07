@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f8e11e82-2cd8-c6ce-df77-1e02fce83d08}</ProjectGuid>
+    <ProjectGuid>{24e7bd86-7063-cde4-989c-ad5a5e0c2d5b}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -303,40 +303,40 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenEditor">
-     <HintPath>C:\Users\user\Test for Job #2\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="DOTween">
-     <HintPath>C:\Users\user\Test for Job #2\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Users\user\Test for Job #2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -711,10 +711,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\user\Test for Job #2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\user\Test for Job #2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\rykli\Documents\GitHub\TestTask-2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

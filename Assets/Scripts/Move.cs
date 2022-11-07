@@ -9,8 +9,8 @@ public class Move : MonoBehaviour
 
     [SerializeField] private Vector3 _direction;
 
-    public Rigidbody _rbPlayer;
-    public float _acceleration;
+    public Rigidbody RbPlayer;
+    public float Acceleration;
 
     private void Awake()
     {
@@ -20,19 +20,19 @@ public class Move : MonoBehaviour
     private void Start()
     {
         Player = GameObject.FindGameObjectWithTag("player");
-        _rbPlayer = Player.GetComponent<Rigidbody>();
+        RbPlayer = Player.GetComponent<Rigidbody>();
     }
 
     public void AddForce()
     {
-        _rbPlayer.AddForce(_direction.normalized * _acceleration);
+        RbPlayer.AddForce(_direction.normalized * Acceleration);
     }
 
     public void TouchToPregrada()
     {
-        var speed = _rbPlayer.velocity.magnitude;
+        var speed = RbPlayer.velocity.magnitude;
         
-        _rbPlayer.AddForce(_direction.normalized * speed * _acceleration * -1f);
+        RbPlayer.AddForce(_direction.normalized * speed * Acceleration * -1f);
 
         StartCoroutine(ValuesChanger());
         
@@ -41,31 +41,31 @@ public class Move : MonoBehaviour
 
     public void BrakeMove(int speed)
     {
-        _rbPlayer.AddForce(_direction.normalized * speed * _acceleration * -.5f);
+        RbPlayer.AddForce(_direction.normalized * (speed * Acceleration * -.5f));
     }
 
     public void FinishMove()
     {
-        var speed = _rbPlayer.velocity.magnitude;
+        var speed = RbPlayer.velocity.magnitude;
 
-        _rbPlayer.AddForce(_direction.normalized * speed * _acceleration * -.5f);
+        RbPlayer.AddForce(_direction.normalized * speed * Acceleration * -.5f);
 
-        _acceleration = 0f;
-        FovConroller.Instance._t = 0f;
+        Acceleration = 0f;
+        FovConroller.Instance.T = 0f;
         Rotation.Instance.Speed = 0f;
     }
 
     IEnumerator ValuesChanger()
     {
         var direction = _direction;
-        var acceleration = _acceleration;
+        var acceleration = Acceleration;
         
         _direction.x = 0;
-        _acceleration = 0;
+        Acceleration = 0;
 
         yield return new WaitForSeconds(0.5f);
         
         _direction.x = direction.x;
-        _acceleration = acceleration;
+        Acceleration = acceleration;
     }
 }

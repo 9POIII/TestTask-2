@@ -10,7 +10,7 @@ public class FovConroller : MonoBehaviour
     
     [SerializeField] private Camera _mainCamera;
 
-    public float _t;
+    public float T;
     
     private void Awake()
     {
@@ -24,11 +24,11 @@ public class FovConroller : MonoBehaviour
 
     public void AddFov()
     {
-        _mainCamera.fieldOfView = Mathf.Lerp(_mainCamera.fieldOfView, _maxFOV, _t);
+        _mainCamera.fieldOfView = Mathf.Lerp(_mainCamera.fieldOfView, _maxFOV, T);
     }
     
     public void MinusFov()
     {
-        _mainCamera.fieldOfView = Mathf.Lerp(_mainCamera.fieldOfView, _minFOV, _t);
+        _mainCamera.fieldOfView = Mathf.Lerp(_mainCamera.fieldOfView, _minFOV, T);
     }
 }
